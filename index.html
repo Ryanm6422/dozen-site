@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dozen Ultimate | Texas A&M University Men's Ultimate Frisbee</title>
+  <!-- Google Fonts: Oswald (Aggie-style bold headers) & Open Sans (clean body text) -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+  <!-- FontAwesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- External CSS File Link -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- TOP INFORMATION BAR -->
+  <div class="top-bar">
+    <div>
+      <span><i class="fa-solid fa-graduation-cap"></i> Texas A&M University Sport Clubs</span>
+    </div>
+    <div>
+      <a href="https://www.tamu.edu" target="_blank" style="margin-right: 15px;">TAMU.edu</a>
+      <a href="https://recsports.tamu.edu/programs/sport-clubs/" target="_blank">Rec Sports</a>
+    </div>
+  </div>
+
+  <!-- MAIN NAVIGATION HEADER -->
+  <header>
+    <nav class="main-nav">
+      <a href="#" class="brand-logo">
+        <div class="logo"><img src="logos/logos-01.png" alt="Dozen Ultimate Logo" style="width: 100px; height: 37px; margin-top:4px"></div>
+        <div class="team-title">
+          <span class="main-name">Dozen Ultimate</span>
+          <span class="sub-name">Texas A&M Men's Ultimate</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#history">History</a></li>
+        <li><a href="#practice">Practices</a></li>
+        <li><a href="#connect">Connect</a></li>
+        <li><a href="#join" class="btn-nav">Interest Form</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<!-- HERO BANNER SLIDER SECTION -->
+  <section class="hero-slider">
+    <!-- Slide 1 -->
+    <div class="slide active" style="background-image: url('pictures/team-pic-regionals.jpg');"></div>
+    
+    <!-- Slide 2 -->
+    <div class="slide" style="background-image: url('pictures/team-pic-sectionals.jpg');"></div>
+    
+    <!-- Slide 3 -->
+    <div class="slide" style="background-image: url('pictures/sitting-pic-regionals.jpg');"></div>
+
+    <!-- Overlay Content -->
+    <div class="hero-content">
+      <h1>Tradition. Excellence. Ultimate.</h1>
+      <p>Official Men's Ultimate Frisbee Club at Texas A&M University</p>
+      <div class="hero-btns">
+        <a href="#join" class="btn btn-primary" style="margin-top: 10px;">Join the Team</a>
+      </div>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <button class="slider-arrow prev-btn" onclick="moveSlide(-1)"><i class="fa-solid fa-chevron-left"></i></button>
+    <button class="slider-arrow next-btn" onclick="moveSlide(1)"><i class="fa-solid fa-chevron-right"></i></button>
+
+    <!-- Navigation Dots -->
+    <div class="slider-dots">
+      <span class="dot active" onclick="setSlide(0)"></span>
+      <span class="dot" onclick="setSlide(1)"></span>
+      <span class="dot" onclick="setSlide(2)"></span>
+    </div>
+  </section>
+
+<!-- ABOUT SECTION -->
+  <section id="about">
+    <div class="section-title">
+      <h2>About Dozen Ultimate</h2>
+      <p>Building Champions in College Station Since 1998</p>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <h3>A Legacy of Competition and Camaraderie</h3>
+        <p>Texas A&M "Dozen Ultimate" is a premier collegiate club program competing at the Division-I level in the USA Ultimate (USAU) South Central Region.</p>
+        
+        <!-- ORIGIN OF THE NAME -->
+        <p><strong>Origin of the Name:</strong> Inspired by Texas A&M’s world-famous <strong>"12th Man"</strong> tradition, the program adopted the moniker <strong>"Dozen"</strong> to represent unified strength, selfless service, and the relentless Aggie spirit brought onto the field every point.</p>
+        
+        <p>Representing Texas A&M University with pride, Dozen operates as a single unified team competing for USAU College Series bids while welcoming players of all skill levels and developing recruits into elite handlers, cutters, and defenders.</p>
+        
+        <div class="stat-box-container">
+          <div class="stat-box">
+            <div class="number">6</div>
+            <div class="label">USAU Nationals Appearances</div>
+          </div>
+          <div class="stat-box">
+            <div class="number">D-I</div>
+            <div class="label">USAU South Central Contender</div>
+          </div>
+        </div>
+      </div>
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=800&q=80" alt="Ultimate Frisbee Action Layout">
+      </div>
+    </div>
+  </section>
+
+<!-- HISTORY SECTION -->
+  <section id="history" class="history-section">
+    <div class="section-title">
+      <h2>Program History &amp; Excellence</h2>
+      <p>Over Two Decades of Aggie Ultimate Championship Tradition</p>
+    </div>
+
+    <div class="timeline">
+      <!-- 1998 -->
+      <div class="timeline-container timeline-left">
+        <div class="timeline-content">
+          <span class="year-badge">1998</span>
+          <h3>Program Founded</h3>
+          <p>Texas A&M Men's Ultimate was officially recognized as a Sport Club, establishing "Dozen" in honor of the Aggie 12th Man tradition.</p>
+        </div>
+      </div>
+
+      <!-- 2001 -->
+      <div class="timeline-container timeline-right">
+        <div class="timeline-content">
+          <span class="year-badge">2001</span>
+          <h3>First USAU Nationals Appearance</h3>
+          <p>Dozen made its inaugural debut at the USA Ultimate D-I College National Championships, putting Texas A&M on the national ultimate radar.</p>
+        </div>
+      </div>
+
+      <!-- 2012 -->
+      <div class="timeline-container timeline-left">
+        <div class="timeline-content">
+          <span class="year-badge">2012</span>
+          <h3>Return to Nationals (Boulder, CO)</h3>
+          <p>Dozen fought through the South Central Regionals to earn a bid to the USA Ultimate College Championship in Boulder, Colorado.</p>
+        </div>
+      </div>
+
+      <!-- 2014-2017 -->
+      <div class="timeline-container timeline-right">
+        <div class="timeline-content">
+          <span class="year-badge">2014 – 2017</span>
+          <h3>4-Year Consecutive Nationals Dynasty</h3>
+          <p>Dozen established a dominant era, qualifying for <strong>four consecutive USAU College National Championships</strong> (2014, 2015, 2016, and 2017) as a premier South Central power.</p>
+        </div>
+      </div>
+  </section>
+
+<!-- PRACTICE SCHEDULE SECTION -->
+  <section id="practice" class="practice-section">
+    <div class="section-title">
+      <h2>Practice Schedule</h2>
+      <p>Open to everybody! Don't forget water, cleats, a dark, and a white shirt.</p>
+    </div>
+
+    <div class="practice-quick-grid">
+      <!-- Days Card -->
+      <div class="practice-metric-card">
+        <div class="icon-wrapper"><i class="fa-solid fa-calendar-days"></i></div>
+        <div class="metric-label">Days</div>
+        <div class="metric-value">Mon, Wed, Thu</div>
+      </div>
+
+      <!-- Time Card -->
+      <div class="practice-metric-card">
+        <div class="icon-wrapper"><i class="fa-solid fa-clock"></i></div>
+        <div class="metric-label">Time</div>
+        <div class="metric-value">8:00 PM – 10:00 PM</div>
+      </div>
+
+      <!-- Location Card -->
+      <div class="practice-metric-card">
+        <div class="icon-wrapper"><i class="fa-solid fa-location-dot"></i></div>
+        <div class="metric-label">Location</div>
+        <div class="metric-value">Penberthy Turf Field 9</div>
+      </div>
+
+      <!-- Required WOL Form Card -->
+      <div class="practice-metric-card wol-card">
+        <span class="required-badge">Required Before Attending</span>
+        <div class="icon-wrapper"><i class="fa-solid fa-file-signature"></i></div>
+        <div class="metric-label">Waiver Form</div>
+        <div class="metric-value">
+          <a href="https://sportclubs.tamu.edu/clubs/joinClub" target="_blank" class="wol-link">
+            Fill Out WOL <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GET CONNECTED SECTION -->
+  <section id="connect" class="connect-section">
+    <div class="section-title">
+      <h2>Get Connected</h2>
+      <p>Stay up to date with practices, tournaments, and official club communications</p>
+    </div>
+
+    <div class="connect-grid">
+      <!-- Card 1: Instagram -->
+      <div class="connect-card" style="background-image: url('pictures/mark-catch-regionals.png');">
+        <div class="connect-overlay-title">Instagram</div>
+        <div class="connect-content-box">
+          <h3><a href="https://www.instagram.com/dozen_ultimate/" target="_blank">Follow on Instagram</a></h3>
+          <p class="subtitle red-text">Stay updated with our achievements!</p>
+          <p class="description">Check in with the team and stay updated on the latest news and events.</p>
+        </div>
+      </div>
+
+      <!-- Card 2: Slack -->
+      <div class="connect-card" style="background-image: url('pictures/decker-around-regionals.png');">
+        <div class="connect-overlay-title">GroupMe</div>
+        <div class="connect-content-box">
+          <h3><a href="https://groupme.com/join_group/116441239/X7p5xA4J" target="_blank">Join the GroupMe</a></h3>
+          <p class="subtitle red-text">Required for current members &amp; encouraged for prospective members</p>
+          <p class="description">Stay connected with the team and access exclusive content and discussions.</p>
+        </div>
+      </div>
+
+      <!-- Card 3: Interest & Recruitment Form -->
+      <div class="connect-card" style="background-image: url('pictures/ethan-standing-regionals.png');">
+        <div class="connect-overlay-title">Interest Form</div>
+        <div class="connect-content-box">
+          <h3><a href="#join">Fill Out Interest Form</a></h3>
+          <p class="subtitle red-text">So we can get to know you better!</p>
+          <p class="description">Provide your information and experience level to express interest in joining the team.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECRUITMENT SECTION -->
+  <section id="join" class="join-section">
+    <div class="join-container">
+      <div class="section-title">
+        <h2>Interest Form</h2>
+        <p>Interested in playing Ultimate for Texas A&M? Fill out the interest form below!</p>
+      </div>
+
+      <form class="join-form" onsubmit="event.preventDefault(); alert('Thank you for your interest in Dozen Ultimate! An officer will reach out soon.');">
+        <div class="form-group">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" required placeholder="Reeve">
+        </div>
+        <div class="form-group">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" required placeholder="Howdy">
+        </div>
+        <div class="form-group">
+          <label for="email">TAMU Email</label>
+          <input type="email" id="email" required placeholder="uploader@tamu.edu">
+        </div>
+        <div class="form-group">
+          <label for="exp">Experience Level</label>
+          <select id="exp">
+            <option value="none">No experience / Brand new</option>
+            <option value="hs">High School Ultimate</option>
+            <option value="club">Youth Club / YCC</option>
+            <option value="other">Other High-level Sports</option>
+          </select>
+        </div>
+        <div class="form-group full-width">
+          <label for="notes">Tell us about yourself (Class year, positions played, athletic background)</label>
+          <textarea id="notes" placeholder="Howdy! I am a freshman looking to join..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit Interest Form</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER SECTION -->
+  <footer id="contact">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Dozen Ultimate</h4>
+        <p>Texas A&M Men's Ultimate Frisbee Club</p>
+        <p>Penberthy Rec Sports Complex<br>College Station, TX 77843</p>
+        <div class="social-links">
+          <a href="https://www.instagram.com/dozen_ultimate/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://twitter.com/DozenUltimate" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+          <a href="mailto:dozenultimate@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#about">About Our Program</a></li>
+          <li><a href="#history">Program History</a></li>
+          <li><a href="#practice">Practice Schedule</a></li>
+          <li><a href="#connect">Connect With Us</a></li>
+          <li><a href="https://recsports.tamu.edu/programs/sport-clubs/" target="_blank">TAMU Rec Sports</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Practice Schedule</h4>
+        <p><strong>Monday, Wednesday & Thursday:</strong><br>8:00 PM – 10:00 PM</p>
+        <p><strong>Location:</strong><br>Penberthy Turf Field 9</p>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Texas A&M Dozen Ultimate Frisbee Club. All Rights Reserved. Styled in accordance with TAMU Brand Guidelines.</p>
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT FOR INTERACTIVE FILTERING -->
+  <script>
+    function filterRoster(category) {
+      const cards = document.querySelectorAll('.player-card');
+      const buttons = document.querySelectorAll('.filter-btn');
+
+      // Update button visual states
+      buttons.forEach(btn => btn.classList.remove('active'));
+      event.currentTarget.classList.add('active');
+
+      // Filter cards
+      cards.forEach(card => {
+        if (category === 'all') {
+          card.style.display = 'block';
+        } else {
+          const categories = card.getAttribute('data-category');
+          if (categories && categories.includes(category)) {
+            card.style.display = 'block';
+          } else {
+            card.style.display = 'none';
+          }
+        }
+      });
+    }
+  </script>
+  <script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.hero-slider .slide');
+    const dots = document.querySelectorAll('.slider-dots .dot');
+
+    function showSlide(index) {
+      if (index >= slides.length) currentSlide = 0;
+      else if (index < 0) currentSlide = slides.length - 1;
+      else currentSlide = index;
+
+      slides.forEach((slide, i) => {
+        slide.classList.toggle('active', i === currentSlide);
+      });
+
+      dots.forEach((dot, i) => {
+        dot.classList.toggle('active', i === currentSlide);
+      });
+    }
+
+    function moveSlide(step) {
+      showSlide(currentSlide + step);
+    }
+
+    function setSlide(index) {
+      showSlide(index);
+    }
+
+    // Optional: Auto-advance slides every 5 seconds
+    setInterval(() => {
+      moveSlide(1);
+    }, 5000);
+  </script>
+</body>
+</html>
