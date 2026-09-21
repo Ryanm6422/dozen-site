@@ -246,32 +246,37 @@
         <p>Interested in playing Ultimate for Texas A&M? Fill out the interest form below!</p>
       </div>
 
-      <form class="join-form" onsubmit="event.preventDefault(); alert('Thank you for your interest in Dozen Ultimate! An officer will reach out soon.');">
+      <form class="join-form" action="https://formspree.io/f/xdekggvg" method="POST">
         <div class="form-group">
           <label for="fname">First Name</label>
-          <input type="text" id="fname" required placeholder="Reeve">
+          <input type="text" id="fname" name="fname" required placeholder="Reeve">
         </div>
+
         <div class="form-group">
           <label for="lname">Last Name</label>
-          <input type="text" id="lname" required placeholder="Howdy">
+          <input type="text" id="lname" name="lname" required placeholder="Howdy">
         </div>
+
         <div class="form-group">
           <label for="email">TAMU Email</label>
-          <input type="email" id="email" required placeholder="uploader@tamu.edu">
+          <input type="email" id="email" name="email" required placeholder="uploader@tamu.edu">
         </div>
+
         <div class="form-group">
           <label for="exp">Experience Level</label>
-          <select id="exp">
+          <select id="exp" name="experience">
             <option value="none">No experience / Brand new</option>
             <option value="hs">High School Ultimate</option>
             <option value="club">Youth Club / YCC</option>
             <option value="other">Other High-level Sports</option>
           </select>
         </div>
+
         <div class="form-group full-width">
           <label for="notes">Tell us about yourself (Class year, positions played, athletic background)</label>
-          <textarea id="notes" placeholder="Howdy! I am a freshman looking to join..."></textarea>
+          <textarea id="notes" name="notes" placeholder="Howdy! I am a freshman looking to join..."></textarea>
         </div>
+
         <button type="submit" class="btn btn-primary">Submit Interest Form</button>
       </form>
     </div>
